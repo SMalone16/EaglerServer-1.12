@@ -21,15 +21,19 @@ now you have your own free server instance to host eaglercraft. Next you need to
 <br>
 Create a terminal tab and paste the following:<br>
 <br>
-First: cd /workspaces/EaglerServer-1.12/bungee
+First:
 <br>
-Then: java -jar bungee.jar
+cd /workspaces/EaglerServer-1.12/bungee
+<br>
+java -jar bungee.jar
 <br>
 <br>
 Next, open a new terminal window and enter the following:
 <br>
-First: cd /workspaces/EaglerServer-1.12/server
-Then: java -Xms512m -Xmx2G -jar server.jar nogui
+<br>
+cd /workspaces/EaglerServer-1.12/server
+<br>
+java -Xms512m -Xmx2G -jar server.jar nogui
 <br>
 <br>
 Now go to the ports area and forward (and make public) port `8081`
